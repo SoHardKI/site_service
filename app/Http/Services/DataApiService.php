@@ -91,8 +91,6 @@ class DataApiService
             }
 
             $formattedData['data'] = $dataArr;
-        } else {
-            $formattedData['data'] = [$value->first_name, $value->second_name, $value->email, $value->page_uid, $value->created_at];
         }
 
         return $formattedData;
