@@ -61,7 +61,6 @@ class MainController extends Controller
                 'first_name' => 'required|string|min:1',
                 'second_name' => 'required|string|min:1',
                 'email' => 'required|email',
-                'page_uid' => 'required|string',
             ]
         );
 

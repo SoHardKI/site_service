@@ -45,7 +45,6 @@
                 {!! Form::text('email', null, ['placeholder' => 'Email','class' => 'form-control', 'required']) !!}
             </div>
         </div>
-        {!! Form::hidden('page_uid', $page_uid) !!}
         <div class="col-12 text-left">
             {!! Form::button('Подвтердить', ['type' => 'submit', 'class' => 'btn btn-primary']) !!}
         </div>
